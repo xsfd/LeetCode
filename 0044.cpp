@@ -17,7 +17,7 @@ bool isMatch(string s, string p) {
             i++;
             j++;
         } else if (p[j] == '*') {
-            if (j = p.size() - 1) return true;
+            if (j == p.size() - 1) return true;
             if (j < p.size()){
                 istart = i;
                 jstart = j;

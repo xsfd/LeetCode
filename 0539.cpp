@@ -7,7 +7,7 @@
 
 int findMinDifference(vector<string> &timePoints){
 
-
+    return 0;
 }
 
 void test0539(){
